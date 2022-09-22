@@ -7,6 +7,10 @@ export default function Home() {
     const [isLoading, setIsLoading] = useState(true);
     const [session, setSession] = useState(null);
 
+    // On mount, check to see if the user has an active session
+    // If they do, set the session object in state
+    // If they don't, send them to the Auth component
+    // to sign in
     useEffect(() => {
         let mounted = true;
 

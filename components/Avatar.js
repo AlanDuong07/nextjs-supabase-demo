@@ -59,8 +59,7 @@ export default function Avatar({ url, size, onUpload }) {
                 <img
                     src={avatarUrl}
                     alt="Avatar"
-                    className=""
-                    style={{ height: size, width: size }}
+                    className="w-48 h-48 lg:w-60 lg:h-60 rounded-md"
                 />
             ) : (
                 <div
@@ -68,9 +67,9 @@ export default function Avatar({ url, size, onUpload }) {
                     style={{ height: size, width: size }}
                 />
             )}
-            <div style={{ width: size }}>
-                <label className="" htmlFor="single">
-                    {uploading ? "Uploading ..." : "Upload"}
+            <div className="mt-2">
+                <label className="interBody" htmlFor="single">
+                    {uploading ? "Uploading ..." : "Upload a file"}
                 </label>
                 <input
                     className="hidden absolute"
