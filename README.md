@@ -1,6 +1,8 @@
 This is a demo of Next.js and Supabase (with Tailwind.css for styling). It is a basic app that allows the 
 user to login via email magic link and update their user information. It is based off of this tutorial: https://supabase.com/docs/guides/with-nextjs.
-Simply create your own Supabase project and copy the required credentials (laid out in .env.example) into a .env.local file once you clone this repo!
+If you just want the gist, head to /components/Account.js to see Next.js and Supabase in action. That is an entire full stack feature in a tiny file, thanks to Supabase! No writing APIs yourself, no complicated database connections.
+
+If you want to run this yourself, simply create your own Supabase project and copy the required credentials (laid out in .env.example) into a .env.local file once you clone this repo!
 
 
 
